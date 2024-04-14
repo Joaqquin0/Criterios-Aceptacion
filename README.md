@@ -11,6 +11,8 @@ Class Transacción
 | obtener_monto()           | float     | Devuelve el monto de la transacción como un número de punto flotante. |
 | establecer_monto(monto)         | float      |  Establece el monto de la transacción.|
 
+
+
 Class Categoría
 
 | Atributo       | Type | Description                                         |
@@ -22,6 +24,8 @@ Class Categoría
 |-------------------------------|------|---------------------------------------------------|
 | obtener_nombre_categoría()    | void | Devuelve el nombre de la categoría.               |
 | mostrar_categorías()          | void | Muestra las categorías disponibles.               |
+
+
 
 Class Suscripción
 
@@ -36,6 +40,8 @@ Class Suscripción
 | generar_sub(usuario)  | void | Genera una suscripción para un usuario.           |
 | cambiar_sub(usuario)  | void | Cambia la suscripción de un usuario.              |
 | cancelar_sub(usuario) | void | Cancela la suscripción de un usuario.             |
+
+
 
 Class Publicacion
 
@@ -55,6 +61,8 @@ Class Publicacion
 | agregar_favoritos()            | void | Agrega la publicación a los favoritos del usuario.           |
 | agregar_al_carro()             | void | Agrega la publicación al carrito de compras.                 |
 
+
+
 Class Usuario
 
 | Atributo       | Type      | Description                                            |
@@ -70,6 +78,8 @@ Class Usuario
 |----------------------------|-------|--------------------------------------------------------|
 | iniciar_sesiónCorreo()     | void  | Inicia sesión del usuario con su correo electrónico.  |
 | iniciar_sesiónGoogle()     | void  | Inicia sesión del usuario con su cuenta de Google.     |
+
+
 
 Class Alquiler
 
@@ -89,6 +99,8 @@ Class Alquiler
 | calcular_costo_alquiler()          | void  | Calcula el costo total del alquiler.                   |
 | registrar_devolución()             | void  | Registra la devolución de la prenda.                   |
 
+
+
 Class Envio
 
 | Atributo             | Type    | Description                                        |
@@ -104,7 +116,7 @@ Class Envio
 | cambiar_estado_seguimiento()           | void  | Cambia el estado de seguimiento del envío.        |
 
 
-Class 
+
 
 
 
